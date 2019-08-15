@@ -7,10 +7,6 @@
 			"url": "https://github.com/CoderMJLee/MJRefresh",
 			"flag": "false"
 		},{
-			"title": "MJExtension",
-			"url": "https://github.com/CoderMJLee/MJExtension",
-			"flag": "false"
-		},{
 			"title": "SDWebImage",
 			"url": "https://github.com/SDWebImage/SDWebImage",
 			"flag": "false"
@@ -21,6 +17,10 @@
 		},{
 			"title": "YYModel",
 			"url": "https://github.com/ibireme/YYModel",
+			"flag": "false"
+		},{
+			"title": "MJExtension",
+			"url": "https://github.com/CoderMJLee/MJExtension",
 			"flag": "false"
 		}
 	]
