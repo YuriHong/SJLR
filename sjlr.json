@@ -11,16 +11,16 @@
 			"url": "https://github.com/CoderMJLee/MJExtension",
 			"flag": "false"
 		},{
+			"title": "YYModel",
+			"url": "https://github.com/ibireme/YYModel",
+			"flag": "false"
+		},{
 			"title": "SDWebImage",
 			"url": "https://github.com/SDWebImage/SDWebImage",
 			"flag": "false"
 		},{
 			"title": "AFNetworking",
 			"url": "https://github.com/AFNetworking/AFNetworking",
-			"flag": "false"
-		},{
-			"title": "YYModel",
-			"url": "https://github.com/ibireme/YYModel",
 			"flag": "false"
 		}
 	]
