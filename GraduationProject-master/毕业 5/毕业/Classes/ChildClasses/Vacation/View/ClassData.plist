@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>全部</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>景点／门票</string>
+		<key>course</key>
+		<array>
+			<string>全部</string>
+			<string>公园</string>
+			<string>古迹</string>
+			<string>自然风光</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>展馆展览</string>
+		<key>course</key>
+		<array>
+			<string>博物馆</string>
+			<string>其他展馆展览</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>温泉</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>动植物园</string>
+		<key>course</key>
+		<array>
+			<string>海洋馆</string>
+			<string>动物园</string>
+			<string>植物园</string>
+		</array>
+	</dict>
+</array>
+</plist>

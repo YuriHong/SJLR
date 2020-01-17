@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HYQuanTangShiJ.ttf">
+            <string>HYQuanTangShiJ</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="InstViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N39-rh-WMO">
+                    <rect key="frame" x="10" y="5" width="90" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="kte-p9-bVy"/>
+                        <constraint firstAttribute="width" constant="90" id="pGS-4F-KJY"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成都方兴服装设计学校" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKf-Mk-Qsx">
+                    <rect key="frame" x="125" y="5" width="264" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="7RK-xq-DpM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HYQuanTangShiJ" family="HYQuanTangShiJ" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电话：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zab-sO-C9m">
+                    <rect key="frame" x="125" y="70" width="45" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="GI3-vD-evr"/>
+                        <constraint firstAttribute="height" constant="25" id="qJD-QC-zVm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HYQuanTangShiJ" family="HYQuanTangShiJ" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15228992387" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebJ-bA-mgK">
+                    <rect key="frame" x="170" y="70" width="219" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="DMd-M9-TjU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HYQuanTangShiJ" family="HYQuanTangShiJ" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DefaultLine" translatesAutoresizingMaskIntoConstraints="NO" id="qMi-88-lqk">
+                    <rect key="frame" x="0.0" y="99" width="414" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="dzc-YI-1eL"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成都青羊区龙桥镇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2s-eL-Ltx">
+                    <rect key="frame" x="125" y="40" width="264" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="a5e-QS-4b7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HYQuanTangShiJ" family="HYQuanTangShiJ" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iKf-Mk-Qsx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="4Ft-XQ-gpj"/>
+                <constraint firstAttribute="trailing" secondItem="qMi-88-lqk" secondAttribute="trailing" id="5jQ-st-mqH"/>
+                <constraint firstAttribute="trailing" secondItem="u2s-eL-Ltx" secondAttribute="trailing" constant="25" id="6sa-kk-e6F"/>
+                <constraint firstItem="zab-sO-C9m" firstAttribute="top" secondItem="u2s-eL-Ltx" secondAttribute="bottom" constant="5" id="7rs-zr-pwj"/>
+                <constraint firstItem="qMi-88-lqk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Krd-TM-N2N"/>
+                <constraint firstAttribute="bottom" secondItem="qMi-88-lqk" secondAttribute="bottom" id="M2g-Jc-t8b"/>
+                <constraint firstItem="ebJ-bA-mgK" firstAttribute="leading" secondItem="zab-sO-C9m" secondAttribute="trailing" id="NKi-6X-bGd"/>
+                <constraint firstAttribute="trailing" secondItem="ebJ-bA-mgK" secondAttribute="trailing" constant="25" id="Ot2-dB-zGg"/>
+                <constraint firstAttribute="bottom" secondItem="ebJ-bA-mgK" secondAttribute="bottom" constant="5" id="Plb-FR-ifa"/>
+                <constraint firstItem="N39-rh-WMO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="Q6u-1p-vOY"/>
+                <constraint firstItem="iKf-Mk-Qsx" firstAttribute="leading" secondItem="N39-rh-WMO" secondAttribute="trailing" constant="25" id="Ysq-9l-0T4"/>
+                <constraint firstItem="u2s-eL-Ltx" firstAttribute="leading" secondItem="N39-rh-WMO" secondAttribute="trailing" constant="25" id="Z1z-2z-XIg"/>
+                <constraint firstAttribute="trailing" secondItem="iKf-Mk-Qsx" secondAttribute="trailing" constant="25" id="imk-Sl-6kP"/>
+                <constraint firstAttribute="bottom" secondItem="zab-sO-C9m" secondAttribute="bottom" constant="5" id="ohG-wn-IJd"/>
+                <constraint firstItem="N39-rh-WMO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="vFg-is-n5M"/>
+                <constraint firstItem="zab-sO-C9m" firstAttribute="leading" secondItem="N39-rh-WMO" secondAttribute="trailing" constant="25" id="yKd-AJ-6dd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="address" destination="u2s-eL-Ltx" id="a8l-D6-idC"/>
+                <outlet property="imgView" destination="N39-rh-WMO" id="yj9-kq-SAw"/>
+                <outlet property="phone" destination="ebJ-bA-mgK" id="T0r-hS-Z7Y"/>
+                <outlet property="title" destination="iKf-Mk-Qsx" id="4S0-Mi-9rW"/>
+            </connections>
+            <point key="canvasLocation" x="134" y="10"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="DefaultLine" width="623" height="2"/>
+    </resources>
+</document>

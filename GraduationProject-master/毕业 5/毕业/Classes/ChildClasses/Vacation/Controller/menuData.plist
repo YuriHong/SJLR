@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>海洋馆</string>
+		<key>image</key>
+		<string>icon_homepage_foodCategory.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>景点／门票</string>
+		<key>image</key>
+		<string>icon_homepage_movieCategory.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>动植物园</string>
+		<key>image</key>
+		<string>icon_homepage_hotelCategory.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>景+酒</string>
+		<key>image</key>
+		<string>icon_homepage_KTVCategory.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>公园游乐场</string>
+		<key>image</key>
+		<string>icon_homepage_CouponCategory</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>展馆展览</string>
+		<key>image</key>
+		<string>icon_homepage_aroundjourneyCategory</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>名胜古迹</string>
+		<key>image</key>
+		<string>icon_homepage_takeoutCategory.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>自然风光</string>
+		<key>image</key>
+		<string>icon_homepage_beautyCategory</string>
+	</dict>
+</array>
+</plist>

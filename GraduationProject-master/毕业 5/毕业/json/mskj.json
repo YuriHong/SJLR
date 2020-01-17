@@ -1,0 +1,38 @@
+[
+ {
+   "type" : "img",
+   "imageURL" : "http://47.93.33.181/wtpNews/mskj1.jpg",
+   "placeholdImageName": "qianlan.jpg"
+  },
+  {"color" : "black",
+   "content" : "\t10月16日，猛狮科技在深圳星河总部举办品牌文化第二期培训班。本次培训旨在贯彻落实公司“2.3.5.1”战略、践行“5I”经营方针和理念、促进猛狮科技各分支机构之间文化建设成果和经验的相互交流、进一步提升公司品牌文化建设整体工作的规范性和统一性。\n",
+   "size" : 17,
+   "type" : "txt"
+  },
+  {"color" : "black",
+   "content" : "\t本期培训内容丰富多彩，由品牌文化中心成员担纲主讲《猛狮科技品牌文化体系概述》、《企业形象规范》、《分支机构文化建设考核详解》、《新闻摄影技术》、《商标管理规范》、《网络媒体推广知识与技巧》、《宣传稿件写作规范与技巧》等，同时特邀礼仪形象资深讲师黎冬分享了《职业形象与礼仪》课程。\n",
+   "size" : 17,
+   "type" : "txt"
+ },
+ {
+ "type" : "img",
+ "imageURL" : "http://47.93.33.181/wtpNews/mskj3.jpg",
+ "placeholdImageName": "qianlan.jpg"
+ },
+ {"color" : "black",
+ "content" : "\t黎冬讲师生动全面地讲解了仪容仪表、职业着装、行为举止、沟通礼仪、电话礼仪、乘车礼仪等基本规范，对站、坐、走等标准仪态进行示范与指导，有利于参训员工塑造良好的精神面貌，提升职场修养。\n",
+ "size" : 17,
+ "type" : "txt"
+ },
+ {
+ "type" : "img",
+ "imageURL" : "http://47.93.33.181/wtpNews/mskj5.jpg",
+ "placeholdImageName": "qianlan.jpg"
+ 
+ },
+ {"color" : "black",
+ "content" : "\t10月17日，学员们将赴猛狮科技旗下深圳泰霸、深圳华力特电气及深圳红河马参观，学习交流企业文化建设的成果与经验。\n",
+ "size" : 17,
+ "type" : "txt"
+ }
+]

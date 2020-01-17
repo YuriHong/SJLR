@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HYQuanTangShiJ.ttf">
+            <string>HYQuanTangShiJ</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="K3E-X4-8Fu" customClass="InstCenterView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="101"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DefaultLine" translatesAutoresizingMaskIntoConstraints="NO" id="EWH-2I-MtA">
+                    <rect key="frame" x="0.0" y="50" width="414" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="gsN-oB-B8Q"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg" translatesAutoresizingMaskIntoConstraints="NO" id="LeN-Up-NK4">
+                    <rect key="frame" x="10" y="10" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="8aw-lM-Nyh"/>
+                        <constraint firstAttribute="width" constant="25" id="DBm-df-wkH"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shouji" translatesAutoresizingMaskIntoConstraints="NO" id="Yqr-NH-DPL">
+                    <rect key="frame" x="10" y="61" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="8qD-Vz-d4w"/>
+                        <constraint firstAttribute="width" constant="25" id="uNL-hU-A3u"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成都青羊区龙桥镇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4T-fs-cif">
+                    <rect key="frame" x="45" y="10" width="359" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="N5h-KC-lst"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HYQuanTangShiJ" family="HYQuanTangShiJ" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15228992387" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aq6-6q-HtP">
+                    <rect key="frame" x="45" y="61" width="359" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="YrD-pZ-bgT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HYQuanTangShiJ" family="HYQuanTangShiJ" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Aq6-6q-HtP" firstAttribute="leading" secondItem="Yqr-NH-DPL" secondAttribute="trailing" constant="10" id="1B5-nD-Z1b"/>
+                <constraint firstItem="LeN-Up-NK4" firstAttribute="top" secondItem="K3E-X4-8Fu" secondAttribute="top" constant="10" id="4C9-Xk-bfO"/>
+                <constraint firstItem="z4T-fs-cif" firstAttribute="leading" secondItem="LeN-Up-NK4" secondAttribute="trailing" constant="10" id="8Y4-vi-82f"/>
+                <constraint firstAttribute="trailing" secondItem="EWH-2I-MtA" secondAttribute="trailing" id="AVn-cl-tSA"/>
+                <constraint firstItem="EWH-2I-MtA" firstAttribute="leading" secondItem="K3E-X4-8Fu" secondAttribute="leading" id="VV4-CP-34L"/>
+                <constraint firstItem="EWH-2I-MtA" firstAttribute="centerY" secondItem="K3E-X4-8Fu" secondAttribute="centerY" id="XRU-gM-bgm"/>
+                <constraint firstAttribute="trailing" secondItem="z4T-fs-cif" secondAttribute="trailing" constant="10" id="Y3G-h9-CQm"/>
+                <constraint firstItem="z4T-fs-cif" firstAttribute="top" secondItem="K3E-X4-8Fu" secondAttribute="top" constant="10" id="ctl-Uq-Wkc"/>
+                <constraint firstItem="Yqr-NH-DPL" firstAttribute="leading" secondItem="K3E-X4-8Fu" secondAttribute="leading" constant="10" id="hOZ-C0-0QY"/>
+                <constraint firstAttribute="trailing" secondItem="Aq6-6q-HtP" secondAttribute="trailing" constant="10" id="nMe-45-2Jq"/>
+                <constraint firstItem="LeN-Up-NK4" firstAttribute="leading" secondItem="K3E-X4-8Fu" secondAttribute="leading" constant="10" id="oCs-qo-6K3"/>
+                <constraint firstAttribute="bottom" secondItem="Aq6-6q-HtP" secondAttribute="bottom" constant="10" id="ue8-CF-IgM"/>
+                <constraint firstAttribute="bottom" secondItem="Yqr-NH-DPL" secondAttribute="bottom" constant="15" id="ukf-bU-cYN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="address" destination="z4T-fs-cif" id="evm-ul-RQj"/>
+                <outlet property="phone" destination="Aq6-6q-HtP" id="62A-we-whI"/>
+            </connections>
+            <point key="canvasLocation" x="61" y="9"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="DefaultLine" width="623" height="2"/>
+        <image name="shouji" width="512" height="512"/>
+        <image name="timg" width="626" height="626"/>
+    </resources>
+</document>

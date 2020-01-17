@@ -1,0 +1,28 @@
+{
+	"error": "0000",
+	"content": {
+		"admin_name": "Yu",
+		"head_portrait": "Yu",
+		"name": "Yu",
+		"admin_id": "Yu",
+		"group_id": "2",
+		"auth_id": "Yu",
+		"stores_id": "Yu",
+		"cheques": "Yu",
+		"today": "Yu",
+		"phone": "Yu",
+		"storeIDArray": [],
+		"storeNameArray": [],
+		"eat": "Yu",
+		"admin_type": "Yu",
+		"login_count": "Yu",
+		"rightNowStoreID": "Yu",
+		"rightNowStoreName": "Yu",
+		"adminURL": "Yu",
+		"rules": [{
+			"ios": "1",
+			"name": "1",
+			"title": "1",
+		}]
+	}
+}

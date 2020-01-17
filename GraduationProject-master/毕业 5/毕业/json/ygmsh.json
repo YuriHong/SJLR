@@ -1,0 +1,22 @@
+[
+ {"color" : "black",
+ "content" : "\n【讲座标题】： 10.29|英国TOP名校见面面试会\n【讲座时间】： 10月29日(周日) 12:30\n【讲座地点】： 成都市滨江东路9号香格里拉大酒店\n\n",
+ "size" : 18,
+ "type" : "txt"
+ },
+ {"color" : "red",
+ "content" : "\n\t活动介绍\n\n",
+ "size" : 24,
+ "type" : "txt"
+ },
+ {"color" : "black",
+ "content" : "\n\t你想与英国名校招生官面对面交流吗？\n\t你想当场拿到Dream School的录取通知书吗？\n\t如果你有留学梦，如果你爱英伦风，你还在犹豫什么？\n\t英国TOP30名校招生官亲临成都，最直接的交流，最快捷的英国招生信息，尽在UK TOUR名校面试会！\n\n",
+ "size" : 18,
+ "type" : "txt"
+ },
+ {
+ "type" : "img",
+ "imageURL" : "http://47.93.33.181/wtpNews/ygjmh.jpg",
+ "placeholdImageName": "qianlan.jpg"
+ },
+]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>墨尔本大学</string>
+		<key>imageName</key>
+		<string>Z.jpg</string>
+		<key>WorldRanking</key>
+		<string>N/A</string>
+		<key>price</key>
+		<string>40000～50000</string>
+		<key>detail</key>
+		<string>墨尔本大学(The University of Melbourne)，简称墨大，始建于1853年，是世界50强名校和国际最顶尖的高等科研学府之一，2015年USNews全球高校排名为32，2017QS世界大学排名全球第41位。墨大坐落于澳大利亚墨尔本市，是澳大利亚历史第二悠久的大学(晚于悉尼大学三年)，维多利亚州最古老的大学，也是澳大利亚六所砂岩学府之一。此外，墨尔本大学是澳大利亚唯一一个所有学科都在全球排名前30的大学，大量的澳洲私人捐款与联邦政府教育拨款更为墨大奠定了这一基础。</string>
+		<key>place</key>
+		<string>澳洲维多利亚州</string>
+		<key>majorID</key>
+		<array>
+			<string>101</string>
+		</array>
+	</dict>
+</array>
+</plist>

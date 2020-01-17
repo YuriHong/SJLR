@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HYQuanTangShiJ.ttf">
+            <string>HYQuanTangShiJ</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DetailCourseTopView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E6m-nh-ggm">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="jop-c5-4yG"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成都中小学辅导VIP1对1课程" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTC-RF-bQh">
+                    <rect key="frame" x="10" y="110" width="394" height="20"/>
+                    <fontDescription key="fontDescription" name="HYQuanTangShiJ" family="HYQuanTangShiJ" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="龙门尚学中小学外教育高端上市品牌，追求极致个性化1对1教学." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vey-Yz-v70">
+                    <rect key="frame" x="10" y="150" width="394" height="34.333333333333343"/>
+                    <fontDescription key="fontDescription" name="HYQuanTangShiJ" family="HYQuanTangShiJ" pointSize="15"/>
+                    <color key="textColor" red="0.69936141664664297" green="0.2294028564545294" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vey-Yz-v70" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="2lX-6m-SSO"/>
+                <constraint firstItem="BTC-RF-bQh" firstAttribute="top" secondItem="E6m-nh-ggm" secondAttribute="bottom" constant="10" id="6JI-BX-8gO"/>
+                <constraint firstAttribute="trailing" secondItem="E6m-nh-ggm" secondAttribute="trailing" id="JYE-zL-NyH"/>
+                <constraint firstItem="E6m-nh-ggm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KPd-D7-fWv"/>
+                <constraint firstAttribute="trailing" secondItem="BTC-RF-bQh" secondAttribute="trailing" constant="10" id="Mbg-mg-d06"/>
+                <constraint firstItem="E6m-nh-ggm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NgR-oS-IhL"/>
+                <constraint firstAttribute="trailing" secondItem="vey-Yz-v70" secondAttribute="trailing" constant="10" id="bfs-Sl-9Vh"/>
+                <constraint firstItem="BTC-RF-bQh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="dYl-2T-QjT"/>
+                <constraint firstItem="vey-Yz-v70" firstAttribute="top" secondItem="BTC-RF-bQh" secondAttribute="bottom" constant="20" id="sDc-Gd-jcB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="SubImageView" destination="E6m-nh-ggm" id="aOC-kf-Fc2"/>
+                <outlet property="topViewSubLabel" destination="vey-Yz-v70" id="lyC-26-XIQ"/>
+                <outlet property="topViewTitleLabel" destination="BTC-RF-bQh" id="rBU-R3-BON"/>
+            </connections>
+            <point key="canvasLocation" x="29" y="-68"/>
+        </view>
+    </objects>
+</document>
